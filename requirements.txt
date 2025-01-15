@@ -1,0 +1,7 @@
+tensorflow
+pillow
+matplotlib
+numpy
+fastapi[standard]
+streamlit
+uvicorn
