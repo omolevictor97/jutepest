@@ -3,7 +3,7 @@ import sys
 
 
 
-DATA_FOLDER_PATH = os.path.join(os.getcwd(), 'jute+pest+dataset', 'Jute_Pest_Dataset')
+DATA_FOLDER_PATH = os.path.join(os.getcwd(), 'jute_pest_dataset', 'Jute_Pest_Dataset')
 
 TRAIN_DIR_PATH = 'train'
 VAL_DIR_PATH = 'val'
