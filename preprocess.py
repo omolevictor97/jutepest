@@ -17,6 +17,7 @@ def preprocess_img(input_data, target_size=IMAGE_SIZE):
             img = load_img(input_data, target_size=target_size)
             img_arr = img_to_array(img)
             img_arr = np.expand_dims(img_arr, axis=0)
+            img_arr /= 255.0
             return img_arr
     except Exception as e:
         return str(e)
